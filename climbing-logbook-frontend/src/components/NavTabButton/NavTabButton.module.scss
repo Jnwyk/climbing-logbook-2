@@ -1,0 +1,15 @@
+.button{
+    color: #FFFDF6;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    transition: all .3s linear;
+    background: linear-gradient(to right, #DDEB9D 50%, #A0C878 50%);
+    background-position: right bottom;
+    background-size: 201%;
+}
+
+.button:hover{
+    background-position: left bottom;
+    color: #A0C878;
+}

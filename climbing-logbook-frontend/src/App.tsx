@@ -1,8 +1,10 @@
+import NavigationTab from "./components/NavigationTab/NavigationTab.tsx";
+
 function App() {
 
   return (
     <>
-    Hello world      
+      <NavigationTab /> 
     </>
   )
 }
