@@ -1,11 +1,11 @@
 import styles from "./NavTabButton.module.scss";
 
-// interface NavTabButtonProps {
-//     className: string,
-// }
+interface NavTabButtonProps {
+    label: string,
+}
 
-function NavTabButton(){
-    return <button className={styles.button}>Random</button>
+function NavTabButton(props: NavTabButtonProps){
+    return <button className={styles.button}>{props.label}</button>
 }
 
 export default NavTabButton;
