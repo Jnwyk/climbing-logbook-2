@@ -1,8 +1,21 @@
-import styles from './Main.module.scss'
+import routeData from "../../../data/routes.json"
+import RouteCard from '../RouteCard/RouteCard';
+import type { ReactNode } from 'react';
 
-function Main() {
+interface MainInterface{
+    searchInputResults: string; 
+}
+
+function Main(props: MainInterface) {
+
+    const filterRoutes = (filterData: string): ReactNode => {
+        return routeData.map(route => route.routename.startsWith(filterData) && <RouteCard key={route.id} route={route}/>)
+    }
+
     return (
-        <main></main>
+        <main>
+            {filterRoutes(props.searchInputResults)}
+        </main>
     );
 }
 
