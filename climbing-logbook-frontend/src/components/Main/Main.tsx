@@ -13,7 +13,7 @@ function Main(props: MainInterface) {
     }
 
     return (
-        <main>
+        <main style={{overflowY: "auto"}}>
             {filterRoutes(props.searchInputResults)}
         </main>
     );
