@@ -4,69 +4,79 @@
         "routename": "Lewy Meningitis",
         "grade": "VI.3",
         "rank": 4.4,
-        "location": "Dupa Słonia"
+        "location": "Dupa Słonia",
+        "userId": 1
     },
     {
         "id": 2,
         "routename": "Wariant R",
         "grade": "VI.1",
         "rank": 4.0,
-        "location": "Sokoliki"
+        "location": "Sokoliki",
+        "userId": 2
     },
     {
         "id": 3,
         "routename": "Sedymentacja muflonów",
         "grade": "VI.2",
         "rank": 2.7,
-        "location": "Góra Birów"
+        "location": "Góra Birów",
+        "userId": 2
     },
     {
         "id": 4,
         "routename": "Jaś nie doczekał",
         "grade": "VI.2",
         "rank": 3.7,
-        "location": "Góra Kołoczek"
+        "location": "Góra Kołoczek",
+        "userId": 2
     },
     {
         "id": 5,
         "routename": "Zaklęcie Jarzębinki",
         "grade": "VI.1+",
         "rank": 3.2,
-        "location": "Góra Kołoczek"
+        "location": "Góra Kołoczek",
+        "userId": 1
     },
     {
         "id": 6,
         "routename": "Prawa Płyta Sasa",
         "grade": "VI.2",
         "rank": 3.9,
-        "location": "Dupa Słonia"
+        "location": "Dupa Słonia",
+        "userId": 2
     },
     {
         "id": 7,
         "routename": "Panel Słoneczny",
         "grade": "VI.3",
         "rank": 3.4,
-        "location": "Słoneczne Skały"
+        "location": "Słoneczne Skały",
+        "userId": 1
     },
     {
         "id": 8,
         "routename": "Kamyk24",
         "grade": "VI.7",
         "rank": 5,
-        "location": "Dolina Brzoskwinki"
+        "location": "Dolina Brzoskwinki",
+        "userId": 1
     },
     {
         "id": 9,
         "routename": "Coś tam",
         "grade": "VI.6",
         "rank": 1.2,
-        "location": "Dolina Brzoskwinki"
+        "location": "Dolina Brzoskwinki",
+        "userId": 1
     },
     {
         "id": 10,
         "routename": "Filarek Kurtyki",
         "grade": "VI.1",
         "rank": 0,
-        "location": "Podzamcze, Adept"
+        "location": "Podzamcze, Adept",
+        "userId": 1
     }
 ]

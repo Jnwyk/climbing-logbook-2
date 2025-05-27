@@ -1,13 +1,12 @@
 @use '../../styles/variables' as *;
 
 .input{
-    position: absolute;
+    position: relative;
     background-color: $background-color;
     border: none;
     font-size: 1rem;
     height: 60%;
     top: 50%;
-    right: 5%;
     transform: translateY(-50%);
     font-family: $font;
     font-weight: 300;

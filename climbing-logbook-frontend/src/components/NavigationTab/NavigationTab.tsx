@@ -5,7 +5,7 @@ const navigationButtons = ["User", "Routes", "Ascents"];
 const printButtons = (navButtons: Array<string>) => navButtons.map((button) => <NavTabButton key={button} label={button}/>);
 
 function NavigationTab(){
-    return <div>
+    return <div style={{flexGrow: 1}}>
         {printButtons(navigationButtons)}
     </div>
 }

@@ -1,6 +1,7 @@
 import routeData from "../../../data/routes.json"
+import UserContextProvider, { UserContext } from "../../contexts/UserContext";
 import RouteCard from '../RouteCard/RouteCard';
-import type { ReactNode } from 'react';
+import { useContext, type ReactNode } from 'react';
 
 interface MainInterface{
     searchInputResults: string; 
@@ -8,15 +9,15 @@ interface MainInterface{
 
 function Main(props: MainInterface) {
 
+    const userContext = useContext(UserContext);
+
     const filterRoutes = (filterData: string): ReactNode => {
-        return routeData.map(route => route.routename.startsWith(filterData) && <RouteCard key={route.id} route={route}/>)
+        return routeData.map(route => route.routename.startsWith(filterData) && route.userId === userContext.userId && <RouteCard key={route.id} route={route}/>)
     }
 
-    return (
-        <main style={{overflowY: "auto"}}>
-            {filterRoutes(props.searchInputResults)}
-        </main>
-    );
+    return (<main>
+                {filterRoutes(props.searchInputResults)}
+            </main>);
 }
 
 export default Main;
